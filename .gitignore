@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.python
+build/
+develop-eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.install.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+.venv
+myenv/
+
+# Pytorch
+*.pth
+*.pt
+.pytorch/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Logs
+*.log
+logs/
+log/
+
+# Cache
+.cache/
+.pytest_cache/
+.coverage
+coverage.xml
+*.cover
+
+# Redis
+dump.rdb
+
+# Ray
+ray_temp/
+ray_bootstrap_config.yaml
+ray_bootstrap_key.pem
+
+# Local development
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+
+data/
